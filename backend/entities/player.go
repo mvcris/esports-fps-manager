@@ -11,6 +11,7 @@ type Player struct {
 	PhotoURL    string `json:"photoURL"`
 	BaseRating  int32  `json:"baseRating"`
 	Role        string `json:"role"`
+	Salary      int32  `json:"salary"`
 
 	// Dynamic Attributes
 	FatigueBps   int32 `json:"fatigueBps"`
